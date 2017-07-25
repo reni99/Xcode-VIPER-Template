@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E202612E1F27637500CD38F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E202612D1F27637500CD38F2 /* AppDelegate.swift */; };
+		E20261331F27637500CD38F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20261311F27637500CD38F2 /* Main.storyboard */; };
+		E20261351F27637500CD38F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20261341F27637500CD38F2 /* Assets.xcassets */; };
+		E20261381F27637500CD38F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20261361F27637500CD38F2 /* LaunchScreen.storyboard */; };
+		E20261481F2763C100CD38F2 /* RedContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261411F2763C100CD38F2 /* RedContracts.swift */; };
+		E20261491F2763C100CD38F2 /* RedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261421F2763C100CD38F2 /* RedInteractor.swift */; };
+		E202614A1F2763C100CD38F2 /* RedModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261431F2763C100CD38F2 /* RedModuleBuilder.swift */; };
+		E202614B1F2763C100CD38F2 /* RedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261441F2763C100CD38F2 /* RedPresenter.swift */; };
+		E202614C1F2763C100CD38F2 /* RedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261451F2763C100CD38F2 /* RedRouter.swift */; };
+		E202614D1F2763C100CD38F2 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20261461F2763C100CD38F2 /* RedViewController.swift */; };
+		E202614E1F2763C100CD38F2 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20261471F2763C100CD38F2 /* RedViewController.xib */; };
+		E2C42E331F276CD900F6A64D /* GreenContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E2C1F276CD900F6A64D /* GreenContracts.swift */; };
+		E2C42E341F276CD900F6A64D /* GreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E2D1F276CD900F6A64D /* GreenInteractor.swift */; };
+		E2C42E351F276CD900F6A64D /* GreenModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E2E1F276CD900F6A64D /* GreenModuleBuilder.swift */; };
+		E2C42E361F276CD900F6A64D /* GreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E2F1F276CD900F6A64D /* GreenPresenter.swift */; };
+		E2C42E371F276CD900F6A64D /* GreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E301F276CD900F6A64D /* GreenRouter.swift */; };
+		E2C42E381F276CD900F6A64D /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C42E311F276CD900F6A64D /* GreenViewController.swift */; };
+		E2C42E391F276CD900F6A64D /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C42E321F276CD900F6A64D /* GreenViewController.xib */; };
+		E2E056101F27662C00D967EB /* BlueContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E056091F27662C00D967EB /* BlueContracts.swift */; };
+		E2E056111F27662C00D967EB /* BlueInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0560A1F27662C00D967EB /* BlueInteractor.swift */; };
+		E2E056121F27662C00D967EB /* BlueModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0560B1F27662C00D967EB /* BlueModuleBuilder.swift */; };
+		E2E056131F27662C00D967EB /* BluePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0560C1F27662C00D967EB /* BluePresenter.swift */; };
+		E2E056141F27662C00D967EB /* BlueRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0560D1F27662C00D967EB /* BlueRouter.swift */; };
+		E2E056151F27662C00D967EB /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0560E1F27662C00D967EB /* BlueViewController.swift */; };
+		E2E056161F27662C00D967EB /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E0560F1F27662C00D967EB /* BlueViewController.xib */; };
+		E2E0561F1F27668600D967EB /* YellowContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E056181F27668600D967EB /* YellowContracts.swift */; };
+		E2E056201F27668600D967EB /* YellowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E056191F27668600D967EB /* YellowInteractor.swift */; };
+		E2E056211F27668600D967EB /* YellowModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0561A1F27668600D967EB /* YellowModuleBuilder.swift */; };
+		E2E056221F27668600D967EB /* YellowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0561B1F27668600D967EB /* YellowPresenter.swift */; };
+		E2E056231F27668600D967EB /* YellowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0561C1F27668600D967EB /* YellowRouter.swift */; };
+		E2E056241F27668600D967EB /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0561D1F27668600D967EB /* YellowViewController.swift */; };
+		E2E056251F27668600D967EB /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E0561E1F27668600D967EB /* YellowViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E202612A1F27637500CD38F2 /* VIPERExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E202612D1F27637500CD38F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E20261321F27637500CD38F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E20261341F27637500CD38F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20261371F27637500CD38F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20261391F27637500CD38F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20261411F2763C100CD38F2 /* RedContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedContracts.swift; sourceTree = "<group>"; };
+		E20261421F2763C100CD38F2 /* RedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedInteractor.swift; sourceTree = "<group>"; };
+		E20261431F2763C100CD38F2 /* RedModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedModuleBuilder.swift; sourceTree = "<group>"; };
+		E20261441F2763C100CD38F2 /* RedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPresenter.swift; sourceTree = "<group>"; };
+		E20261451F2763C100CD38F2 /* RedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedRouter.swift; sourceTree = "<group>"; };
+		E20261461F2763C100CD38F2 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		E20261471F2763C100CD38F2 /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		E2C42E2C1F276CD900F6A64D /* GreenContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenContracts.swift; sourceTree = "<group>"; };
+		E2C42E2D1F276CD900F6A64D /* GreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenInteractor.swift; sourceTree = "<group>"; };
+		E2C42E2E1F276CD900F6A64D /* GreenModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenModuleBuilder.swift; sourceTree = "<group>"; };
+		E2C42E2F1F276CD900F6A64D /* GreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenPresenter.swift; sourceTree = "<group>"; };
+		E2C42E301F276CD900F6A64D /* GreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenRouter.swift; sourceTree = "<group>"; };
+		E2C42E311F276CD900F6A64D /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		E2C42E321F276CD900F6A64D /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		E2E056091F27662C00D967EB /* BlueContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueContracts.swift; sourceTree = "<group>"; };
+		E2E0560A1F27662C00D967EB /* BlueInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueInteractor.swift; sourceTree = "<group>"; };
+		E2E0560B1F27662C00D967EB /* BlueModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueModuleBuilder.swift; sourceTree = "<group>"; };
+		E2E0560C1F27662C00D967EB /* BluePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePresenter.swift; sourceTree = "<group>"; };
+		E2E0560D1F27662C00D967EB /* BlueRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueRouter.swift; sourceTree = "<group>"; };
+		E2E0560E1F27662C00D967EB /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E2E0560F1F27662C00D967EB /* BlueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		E2E056181F27668600D967EB /* YellowContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowContracts.swift; sourceTree = "<group>"; };
+		E2E056191F27668600D967EB /* YellowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowInteractor.swift; sourceTree = "<group>"; };
+		E2E0561A1F27668600D967EB /* YellowModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowModuleBuilder.swift; sourceTree = "<group>"; };
+		E2E0561B1F27668600D967EB /* YellowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowPresenter.swift; sourceTree = "<group>"; };
+		E2E0561C1F27668600D967EB /* YellowRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowRouter.swift; sourceTree = "<group>"; };
+		E2E0561D1F27668600D967EB /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		E2E0561E1F27668600D967EB /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20261271F27637500CD38F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20261211F27637500CD38F2 = {
+			isa = PBXGroup;
+			children = (
+				E202612C1F27637500CD38F2 /* VIPERExample */,
+				E202612B1F27637500CD38F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E202612B1F27637500CD38F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E202612A1F27637500CD38F2 /* VIPERExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E202612C1F27637500CD38F2 /* VIPERExample */ = {
+			isa = PBXGroup;
+			children = (
+				E202612D1F27637500CD38F2 /* AppDelegate.swift */,
+				E202613F1F2763AE00CD38F2 /* Modules */,
+				E20261311F27637500CD38F2 /* Main.storyboard */,
+				E20261341F27637500CD38F2 /* Assets.xcassets */,
+				E20261361F27637500CD38F2 /* LaunchScreen.storyboard */,
+				E20261391F27637500CD38F2 /* Info.plist */,
+			);
+			path = VIPERExample;
+			sourceTree = "<group>";
+		};
+		E202613F1F2763AE00CD38F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E2E056171F27667600D967EB /* Yellow Module */,
+				E2E056081F27661F00D967EB /* Blue Module */,
+				E20261401F2763B600CD38F2 /* Red Module */,
+				E2C42E2C1F276CD900F6A64D /* GreenContracts.swift */,
+				E2C42E2D1F276CD900F6A64D /* GreenInteractor.swift */,
+				E2C42E2E1F276CD900F6A64D /* GreenModuleBuilder.swift */,
+				E2C42E2F1F276CD900F6A64D /* GreenPresenter.swift */,
+				E2C42E301F276CD900F6A64D /* GreenRouter.swift */,
+				E2C42E311F276CD900F6A64D /* GreenViewController.swift */,
+				E2C42E321F276CD900F6A64D /* GreenViewController.xib */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E20261401F2763B600CD38F2 /* Red Module */ = {
+			isa = PBXGroup;
+			children = (
+				E20261411F2763C100CD38F2 /* RedContracts.swift */,
+				E20261421F2763C100CD38F2 /* RedInteractor.swift */,
+				E20261431F2763C100CD38F2 /* RedModuleBuilder.swift */,
+				E20261441F2763C100CD38F2 /* RedPresenter.swift */,
+				E20261451F2763C100CD38F2 /* RedRouter.swift */,
+				E20261461F2763C100CD38F2 /* RedViewController.swift */,
+				E20261471F2763C100CD38F2 /* RedViewController.xib */,
+			);
+			path = "Red Module";
+			sourceTree = "<group>";
+		};
+		E2E056081F27661F00D967EB /* Blue Module */ = {
+			isa = PBXGroup;
+			children = (
+				E2E056091F27662C00D967EB /* BlueContracts.swift */,
+				E2E0560A1F27662C00D967EB /* BlueInteractor.swift */,
+				E2E0560B1F27662C00D967EB /* BlueModuleBuilder.swift */,
+				E2E0560C1F27662C00D967EB /* BluePresenter.swift */,
+				E2E0560D1F27662C00D967EB /* BlueRouter.swift */,
+				E2E0560E1F27662C00D967EB /* BlueViewController.swift */,
+				E2E0560F1F27662C00D967EB /* BlueViewController.xib */,
+			);
+			path = "Blue Module";
+			sourceTree = "<group>";
+		};
+		E2E056171F27667600D967EB /* Yellow Module */ = {
+			isa = PBXGroup;
+			children = (
+				E2E056181F27668600D967EB /* YellowContracts.swift */,
+				E2E056191F27668600D967EB /* YellowInteractor.swift */,
+				E2E0561A1F27668600D967EB /* YellowModuleBuilder.swift */,
+				E2E0561B1F27668600D967EB /* YellowPresenter.swift */,
+				E2E0561C1F27668600D967EB /* YellowRouter.swift */,
+				E2E0561D1F27668600D967EB /* YellowViewController.swift */,
+				E2E0561E1F27668600D967EB /* YellowViewController.xib */,
+			);
+			path = "Yellow Module";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20261291F27637500CD38F2 /* VIPERExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E202613C1F27637500CD38F2 /* Build configuration list for PBXNativeTarget "VIPERExample" */;
+			buildPhases = (
+				E20261261F27637500CD38F2 /* Sources */,
+				E20261271F27637500CD38F2 /* Frameworks */,
+				E20261281F27637500CD38F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPERExample;
+			productName = VIPERExample;
+			productReference = E202612A1F27637500CD38F2 /* VIPERExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20261221F27637500CD38F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Renato Stauffer";
+				TargetAttributes = {
+					E20261291F27637500CD38F2 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = E20261251F27637500CD38F2 /* Build configuration list for PBXProject "VIPERExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20261211F27637500CD38F2;
+			productRefGroup = E202612B1F27637500CD38F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20261291F27637500CD38F2 /* VIPERExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20261281F27637500CD38F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E202614E1F2763C100CD38F2 /* RedViewController.xib in Resources */,
+				E2E056161F27662C00D967EB /* BlueViewController.xib in Resources */,
+				E20261381F27637500CD38F2 /* LaunchScreen.storyboard in Resources */,
+				E2C42E391F276CD900F6A64D /* GreenViewController.xib in Resources */,
+				E20261351F27637500CD38F2 /* Assets.xcassets in Resources */,
+				E2E056251F27668600D967EB /* YellowViewController.xib in Resources */,
+				E20261331F27637500CD38F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20261261F27637500CD38F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E202614D1F2763C100CD38F2 /* RedViewController.swift in Sources */,
+				E2E056221F27668600D967EB /* YellowPresenter.swift in Sources */,
+				E202612E1F27637500CD38F2 /* AppDelegate.swift in Sources */,
+				E2C42E361F276CD900F6A64D /* GreenPresenter.swift in Sources */,
+				E2C42E381F276CD900F6A64D /* GreenViewController.swift in Sources */,
+				E202614A1F2763C100CD38F2 /* RedModuleBuilder.swift in Sources */,
+				E2E056121F27662C00D967EB /* BlueModuleBuilder.swift in Sources */,
+				E2E056131F27662C00D967EB /* BluePresenter.swift in Sources */,
+				E2E056231F27668600D967EB /* YellowRouter.swift in Sources */,
+				E2C42E351F276CD900F6A64D /* GreenModuleBuilder.swift in Sources */,
+				E20261491F2763C100CD38F2 /* RedInteractor.swift in Sources */,
+				E20261481F2763C100CD38F2 /* RedContracts.swift in Sources */,
+				E2C42E331F276CD900F6A64D /* GreenContracts.swift in Sources */,
+				E202614C1F2763C100CD38F2 /* RedRouter.swift in Sources */,
+				E2E056241F27668600D967EB /* YellowViewController.swift in Sources */,
+				E2C42E371F276CD900F6A64D /* GreenRouter.swift in Sources */,
+				E2E056151F27662C00D967EB /* BlueViewController.swift in Sources */,
+				E2E0561F1F27668600D967EB /* YellowContracts.swift in Sources */,
+				E2E056141F27662C00D967EB /* BlueRouter.swift in Sources */,
+				E202614B1F2763C100CD38F2 /* RedPresenter.swift in Sources */,
+				E2E056111F27662C00D967EB /* BlueInteractor.swift in Sources */,
+				E2C42E341F276CD900F6A64D /* GreenInteractor.swift in Sources */,
+				E2E056211F27668600D967EB /* YellowModuleBuilder.swift in Sources */,
+				E2E056201F27668600D967EB /* YellowInteractor.swift in Sources */,
+				E2E056101F27662C00D967EB /* BlueContracts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E20261311F27637500CD38F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20261321F27637500CD38F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E20261361F27637500CD38F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20261371F27637500CD38F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E202613A1F27637500CD38F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E202613B1F27637500CD38F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E202613D1F27637500CD38F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BD7VD67BSV;
+				INFOPLIST_FILE = VIPERExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.renatostauffer.VIPERExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E202613E1F27637500CD38F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BD7VD67BSV;
+				INFOPLIST_FILE = VIPERExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.renatostauffer.VIPERExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20261251F27637500CD38F2 /* Build configuration list for PBXProject "VIPERExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E202613A1F27637500CD38F2 /* Debug */,
+				E202613B1F27637500CD38F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E202613C1F27637500CD38F2 /* Build configuration list for PBXNativeTarget "VIPERExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E202613D1F27637500CD38F2 /* Debug */,
+				E202613E1F27637500CD38F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20261221F27637500CD38F2 /* Project object */;
+}
