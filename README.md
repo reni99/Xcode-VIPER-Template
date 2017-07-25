@@ -1,8 +1,9 @@
-# Xcode-VIPER-Template
+# Xcode-VIPER-Templates
 A repository with Xcode templates for VIPER (B) architecture. See https://news.realm.io/news/break-the-monoloth-with-b-viper-modules/ if you want to learn more about VIPER with B.
 
-## Note
-Tested only with Xcode 9, Beta 4. The structure for file templates has changed for Xcode 9.
+## Rquirements
+- Xcode 9
+- Swift 4
 
 ## Getting started
 1. Download the zip or clone the repository.
